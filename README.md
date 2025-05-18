@@ -1,2 +1,32 @@
-# Orde_Prog
-Trabalho de Algoritmo de Ordenação.
+# Trabalho de Estrutura de Dados - Ordenação de Vetores
+
+## Objetivo
+
+Este projeto tem como principal objetivo aplicar os conhecimentos sobre estruturas de dados e algoritmos de ordenação. A proposta consiste em:
+
+1. Gerar um vetor (array) de números inteiros aleatórios.
+2. Implementar dois algoritmos de ordenação diferentes.
+3. Utilizar os algoritmos para ordenar o vetor em ordem crescente e decrescente.
+
+## Linguagem Utilizada
+
+- C (Linguagem de Programação)
+
+## Algoritmos de Ordenação Implementados
+
+- **Bubble Sort**
+- **Selection Sort**
+
+## Funcionalidades do Programa
+
+- Gera um vetor com 10 números inteiros aleatórios.
+- Ordena o vetor em ordem **crescente** utilizando o **Bubble Sort**.
+- Ordena o vetor em ordem **decrescente** utilizando o **Selection Sort**.
+- Imprime o vetor original e os vetores ordenados.
+
+## Como Compilar e Executar
+
+1. Compile o código com um compilador C (por exemplo, `gcc`):
+
+   ```bash
+   gcc ordenacao.c -o ordenacao
