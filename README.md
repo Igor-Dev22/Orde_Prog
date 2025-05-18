@@ -26,6 +26,6 @@ Este projeto tem como principal objetivo aplicar os conhecimentos sobre estrutur
 
 ## Autores
 
-*Nomes dos Alunos : Igor Burkhardt , Anderson Rodrigues e Bruno Henrique Capoani.
-*Disciplina : Fundamentos de Algoritmos e Programação.
-*Orientador : Lucas Volfe.
+* Nomes dos Alunos : Igor Burkhardt , Anderson Rodrigues e Bruno Henrique Capoani.
+* Disciplina : Fundamentos de Algoritmos e Programação.
+* Orientador : Lucas Volfe.
