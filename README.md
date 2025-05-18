@@ -23,3 +23,9 @@ Este projeto tem como principal objetivo aplicar os conhecimentos sobre estrutur
 - Ordena o vetor em ordem **crescente** utilizando o **Bubble Sort**.
 - Ordena o vetor em ordem **decrescente** utilizando o **Selection Sort**.
 - Imprime o vetor original e os vetores ordenados.
+
+## Autores
+
+*Nomes dos Alunos : Igor Burkhardt , Anderson Rodrigues e Bruno Henrique Capoani.
+*Disciplina : Fundamentos de Algoritmos e Programação.
+*Orientador : Lucas Volfe.
