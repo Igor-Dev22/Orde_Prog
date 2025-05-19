@@ -1,17 +1,16 @@
 #include <stdio.h>
 
 void insertionSort(int vet[], int tamanho) {
-    int i, chave, j;
+    int i, aux, j;
     for (i = 1; i < tamanho; i++) {
-        chave = vet[i];
+        aux = vet[i];
         j = i - 1;
 
-        // Move os elementos maiores que a chave para frente
-        while (j >= 0 && vet[j] > chave) {
+        while (j >= 0 && vet[j] > aux) {
             vet[j + 1] = vet[j];
             j = j - 1;
         }
-        vet[j + 1] = chave;
+        vet[j + 1] = aux;
     }
 }
 
