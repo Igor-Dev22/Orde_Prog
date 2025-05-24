@@ -32,7 +32,7 @@ void vetor_aleatorio(int vet[], int tamanho) {
 int main() {
     srand(time(NULL));
 
-    int tamanho = 1000;
+    int tamanho = 10;
     int vet[tamanho];
 
     vetor_aleatorio(vet, tamanho);
@@ -42,7 +42,7 @@ int main() {
 
     insertionSort(vet, tamanho);
 
-    printf("Vetor ordenado (Insertion Sort):\n");
+    printf("Vetor ordenado:\n");
     imprimirVetor(vet, tamanho);
 
     return 0;
