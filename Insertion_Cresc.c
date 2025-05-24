@@ -42,7 +42,7 @@ int main() {
 
     insertionSort(vet, tamanho);
 
-    printf("Vetor ordenado:\n");
+    printf("Vetor ordenado de maneira CRESCENTE:\n");
     imprimirVetor(vet, tamanho);
 
     return 0;
