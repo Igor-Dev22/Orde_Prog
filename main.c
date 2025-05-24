@@ -103,7 +103,7 @@ int main() {
 
         insertionSortDecrescente(vet, tamanho);
 
-        printf("Vetor ordenado (Insertion Sort - Crescente):\n");
+        printf("Vetor ordenado (Insertion Sort - Decrescente):\n");
         imprimirVetor(vet, tamanho);
         break;
 
@@ -113,7 +113,7 @@ int main() {
 
         selectionSortCrescente(vet, tamanho);
 
-        printf("Vetor ordenado (Insertion Sort - Crescente):\n");
+        printf("Vetor ordenado (Selection Sort - Crescente):\n");
         imprimirVetor(vet, tamanho);
         break;
 
@@ -123,7 +123,7 @@ int main() {
 
         selectionSortDecrescente(vet, tamanho);
 
-        printf("Vetor ordenado (Insertion Sort - Crescente):\n");
+        printf("Vetor ordenado (Selection Sort - Decrescente):\n");
         imprimirVetor(vet, tamanho);
         break;
     }
