@@ -2,20 +2,6 @@
 #include <stdlib.h>
 #include <time.h>
 
-void insertionSort(int vet[], int tamanho) {
-    int i, aux, j;
-    for (i = 1; i < tamanho; i++) {
-        aux = vet[i];
-        j = i - 1;
-
-        while (j >= 0 && vet[j] > aux) {
-            vet[j + 1] = vet[j];
-            j = j - 1;
-        }
-        vet[j + 1] = aux;
-    }
-}
-
 void imprimirVetor(int vet[], int tamanho) {
     for (int i = 0; i < tamanho; i++) {
         printf("%d ", vet[i]);
@@ -37,13 +23,9 @@ int main() {
 
     vetor_aleatorio(vet, tamanho);
 
-    printf("Vetor original:\n");
+    printf("Vetor aleatorio de %d valores gerado:\n\n", tamanho);
     imprimirVetor(vet, tamanho);
 
-    insertionSort(vet, tamanho);
-
-    printf("Vetor ordenado:\n");
-    imprimirVetor(vet, tamanho);
 
     return 0;
 }
