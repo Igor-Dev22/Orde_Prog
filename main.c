@@ -32,7 +32,7 @@ void vetor_aleatorio(int vet[], int tamanho) {
 int main() {
     srand(time(NULL));
 
-    int tamanho = 5;
+    int tamanho = 6;
     int vet[tamanho];
 
     vetor_aleatorio(vet, tamanho);
