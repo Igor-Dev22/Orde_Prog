@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 void insertionSort(int vet[], int tamanho) {
     int i, aux, j;
@@ -21,9 +23,19 @@ void imprimirVetor(int vet[], int tamanho) {
     printf("\n");
 }
 
+void vetor_aleatorio(int vet[], int tamanho) {
+    for (int i = 0; i < tamanho; i++) {
+        vet[i] = rand() % tamanho;
+    }
+}
+
 int main() {
-    int vet[] = {29, 10, 14, 37, 13};
-    int tamanho = sizeof(vet) / sizeof(vet[0]);
+    srand(time(NULL));
+
+    int tamanho = 5;
+    int vet[tamanho];
+
+    vetor_aleatorio(vet, tamanho);
 
     printf("Vetor original:\n");
     imprimirVetor(vet, tamanho);
