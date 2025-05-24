@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-void insertionSort(int vet[], int tamanho) {
+void insertionSortCrescente(int vet[], int tamanho) {
     int i, aux, j;
     for (i = 1; i < tamanho; i++) {
         aux = vet[i];
@@ -32,7 +32,7 @@ void vetor_aleatorio(int vet[], int tamanho) {
 int main() {
     srand(time(NULL));
 
-    int tamanho = 10;
+    int tamanho = 1000;
     int vet[tamanho];
 
     vetor_aleatorio(vet, tamanho);
@@ -40,9 +40,9 @@ int main() {
     printf("Vetor original:\n");
     imprimirVetor(vet, tamanho);
 
-    insertionSort(vet, tamanho);
+    insertionSortCrescente(vet, tamanho);
 
-    printf("Vetor ordenado de maneira CRESCENTE:\n");
+    printf("Vetor ordenado (Insertion Sort - Crescente):\n");
     imprimirVetor(vet, tamanho);
 
     return 0;
