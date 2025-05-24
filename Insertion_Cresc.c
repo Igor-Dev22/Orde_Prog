@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
+
 void insertionSortCrescente(int vet[], int tamanho) {
     int i, aux, j;
     for (i = 1; i < tamanho; i++) {
