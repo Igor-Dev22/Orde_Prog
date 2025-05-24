@@ -10,7 +10,7 @@ void insertionSortCrescente(int vet[], int tamanho) {
 
         while (j >= 0 && vet[j] > aux) {
             vet[j + 1] = vet[j];
-            j = j - 1;
+            j--;
         }
         vet[j + 1] = aux;
     }
@@ -32,7 +32,7 @@ void vetor_aleatorio(int vet[], int tamanho) {
 int main() {
     srand(time(NULL));
 
-    int tamanho = 1000;
+    int tamanho = 10;
     int vet[tamanho];
 
     vetor_aleatorio(vet, tamanho);
