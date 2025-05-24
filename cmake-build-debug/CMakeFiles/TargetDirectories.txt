@@ -1,3 +1,0 @@
-C:/CC_2025_CODES/Orde_Prog/cmake-build-debug/CMakeFiles/CC___2025___ALGORITMOS.dir
-C:/CC_2025_CODES/Orde_Prog/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/CC_2025_CODES/Orde_Prog/cmake-build-debug/CMakeFiles/rebuild_cache.dir
