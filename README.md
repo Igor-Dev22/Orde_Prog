@@ -14,13 +14,13 @@ Este projeto tem como principal objetivo aplicar os conhecimentos sobre estrutur
 
 ## Algoritmos de Ordenação Implementados
 
-- **Bubble Sort**
+- **Insertion Sort**
 - **Selection Sort**
 
 ## Funcionalidades do Programa
 
 - Gera um vetor com 10 números inteiros aleatórios.
-- Ordena o vetor em ordem **crescente** utilizando o **Bubble Sort**.
+- Ordena o vetor em ordem **crescente** utilizando o **Insertion Sort**.
 - Ordena o vetor em ordem **decrescente** utilizando o **Selection Sort**.
 - Imprime o vetor original e os vetores ordenados.
 
